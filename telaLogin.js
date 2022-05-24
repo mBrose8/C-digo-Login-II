@@ -52,8 +52,8 @@ switch (op) {
         //Cria um loop do tamanho do vetor
         for (i = 0; i < nomes.length; i++) {
 
-            alert("Entrou")
-                //Verifica se o nome e a senha digitados são iguais ao nome e a senha da vez salva dos localStorage
+       
+        //Verifica se o nome e a senha digitados são iguais ao nome e a senha da vez salva dos localStorage
             if (nomeLogin == nomes[i] && senhaLogin == senhas[i]) {
 
                 //Troca o estado da variavel logou para true
